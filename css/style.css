@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    color: rgb(255, 255, 255);
+    background: url("/img/python-programming-minimalism-grey-technology-hd-wallpaper-preview.jpg");
+    background-size: 1280px;
+    font-family: 'Playball', cursive;
+}
+
+.left{
+    display: inline-block;
+    position: absolute;
+    line-height: 0px;
+    left: 35px;
+    top: 20px;
+    text-align: center;
+}
+.left img{
+    width: 90px;
+    filter: invert(100%);
+
+}
+
+.mid{
+    display: block;
+    width: 35%;
+    margin:auto;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar li a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover , .navbar li a.active{
+    color: grey;
+    display: inline-block;
+    text-decoration: underline;
+    padding: 34px 23px;
+}
+
+.right{
+    position: absolute;
+    right: 35px;
+    top: 50px;
+    display: inline-block;
+}
+
+.btn{
+    margin: 0px 9px;
+    padding: 4px 14px;
+    background-color: black;
+    color: white;
+    border: 2px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Playball', cursive;
+
+}
+
+.btn:hover{
+    background-color: gray;
+}
+
+.container{
+    border: 2px solid rgb(255, 255, 255);
+    margin-top: 100px;
+    margin-left: 100px;
+    padding: 20px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 6x;
+    border: 2px solid black;
+    margin: 10px auto;
+    font-size: large;
+    border-radius: 5px;
+    font-family: 'Playball', cursive; 
+}
+
+.container h1{
+    text-align: center;
+}
+
+.container .btn{
+    display: block;
+    width: 25%;
+    margin: auto;
+}
+
+
+
+
+
+
